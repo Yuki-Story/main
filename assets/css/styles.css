@@ -1,0 +1,239 @@
+body {
+  background-color: #2596be;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+.back {
+  background: cadetblue;
+  width: 10%;
+  border-radius: 16px;
+  padding: 0.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.back a {
+  text-decoration: none;
+  color: white;
+}
+
+.group {
+  width: 50%;
+  height: auto;
+  opacity: 0.8;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+
+.selector {
+  width: 20%;
+  height: auto;
+  padding: 1%;
+  float: left;
+  margin-left: 20%;
+  border-radius: 8px;
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.article {
+  background-color: rgb(237, 78, 78);
+}
+
+.book {
+  background-color: rgb(255, 111, 0);
+}
+
+.painting {
+  background-color: rgb(135, 121, 48);
+}
+
+.podcast {
+  background-color: rgb(161, 31, 161);
+}
+
+.travel {
+  background-color: rgb(32, 143, 62);
+}
+
+.about {
+  background-color: rgb(33, 143, 133);
+}
+
+.title {
+  margin-top: 20%;
+  margin-bottom: 0%;
+  padding: 2%;
+  font-size: 1.7em;
+  background: black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width: 70%;
+  height: 20%;
+}
+
+.logo-icon-category {
+  width: 50px;
+  height: 50px;
+}
+
+/* ARTICLES COLORS */
+.color-zero {
+  background-color: red;
+}
+
+.color-one {
+  background-color: purple;
+}
+
+.color-two {
+  background-color: orange;
+}
+
+.color-three {
+  background-color: yellow;
+}
+
+.color-four {
+  background-color: green;
+}
+
+.color-five {
+  background-color: blue;
+}
+
+.color-six {
+  background-color: gray;
+}
+
+.color-seven {
+  background-color: darkslateblue;
+}
+
+.part {
+  width: 60%;
+  margin: 0%;
+  margin-top: -10%;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* About */
+.about-me {
+  background: darkblue;
+  border-radius: 10px;
+  float: left;
+  width: 50%;
+  height: 30%;
+  color: black;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.about-social {
+  background: darkblue;
+  border-radius: 10px;
+  float: right;
+  width: 50%;
+  height: 30%;
+  color: black;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.about-project {
+  background: darkblue;
+  border-radius: 10px;
+  float: left;
+  width: 50%;
+  height: 30%;
+  color: black;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.about h1 p img {
+  float: left;
+}
+
+.img-me {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-top: -20%;
+  padding: 2%;
+  border-radius: 16px;
+}
+
+.a-link {
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  background: green;
+  border-radius: 8px;
+}
+
+/* CSS Mobile */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .group {
+    width: 90%;
+    height: 50%;
+    margin-bottom: 5%;
+    display: inline-block;
+  }
+
+  .back {
+    width: 50%;
+  }
+
+  .about-me {
+    float: left;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    margin-bottom: 2%;
+  }
+
+  .about-social {
+    float: right;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    margin-bottom: 2%;
+  }
+
+  .about-project {
+    float: left;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    margin-bottom: 2%;
+  }
+
+  .img-me {
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-top: -10%;
+    padding: 2%;
+    border-radius: 16px;
+  }
+}
