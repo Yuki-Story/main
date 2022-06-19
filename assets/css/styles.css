@@ -11,13 +11,13 @@ h3 {
 
 .back {
   background: cadetblue;
-  width: 10%;
+  width: 20%;
   border-radius: 16px;
   padding: 0.5%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.back a {
+ a {
   text-decoration: none;
   color: white;
 }
@@ -46,7 +46,7 @@ h3 {
 }
 
 .article {
-  background-color: rgb(237, 78, 78);
+  background-color: rgb(207, 56, 106);
 }
 
 .book {
@@ -54,19 +54,19 @@ h3 {
 }
 
 .painting {
-  background-color: rgb(135, 121, 48);
+  background-color: rgb(117, 108, 59);
 }
 
 .podcast {
-  background-color: rgb(161, 31, 161);
+  background-color: rgb(180, 42, 180);
 }
 
-.travel {
-  background-color: rgb(32, 143, 62);
+.music {
+  background-color: rgb(216, 27, 37);
 }
 
-.about {
-  background-color: rgb(33, 143, 133);
+.research {
+  background-color: rgb(163, 135, 94);
 }
 
 .title {
