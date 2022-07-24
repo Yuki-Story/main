@@ -2,7 +2,7 @@
 <p align="center">(<a href="https://yuki-story.github.io/main/">Go to website</a>)</p>
 
 ## About me
-<img src="https://raw.githubusercontent.com/Yuki-Story/images/main/Yuki%20Kuvo.jpg" heigh="200px">
+<img src="https://raw.githubusercontent.com/Yuki-Story/images/main/Yuki%20Kuvo.jpg" heigh="50px">
 
 Hello. My name is Yuki. I'm a web developer, writing on JavaScript. And I also love philosophy very much! Here you can view all my works.
 
